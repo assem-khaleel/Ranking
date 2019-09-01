@@ -1,0 +1,35 @@
+<?php
+
+
+return [
+    'rankingSystem'=>'أنظمة التصنيف',
+    'create'=>'إنشاء نظام التصنيف',
+    'nameEn'=>'الإسم (الإنجليزية)',
+    'nameAr'=>'الإسم (العربية)',
+    'abbr'=>'الأختصار',
+    'list'=>'قائمة أنظمة التصنيف',
+    'edit'=>'تعديل',
+    'delete'=>'حذف',
+    'save'=>'حفظ',
+    'cancel'=>'إلغاء',
+    'sucessMsg'=>'تم الحفظ بنجاح !',
+    'nameArLabel'=>'الإسم (لعربية)',
+    'nameEnLabel'=>'الإسم (الإنجليزية)',
+    'sucessMsgRemove'=>'تم الحذف بنجاح !',
+    'errorMsgRemove'=>"لم يتم الحذف !",
+    'descEn'=>"الوصف (الإنجليزية)",
+    'descAr'=>"الوصف (العربية)",
+    'descArLabel'=>'الوصف (العربية)',
+    'Actions'=>'الإجراءات',
+    'selectOption'=>'إختار واحد',
+    'show'=>'عرض',
+    'home' => 'الرئيسية',
+    'createRankingSystem' => 'إنشاء نظام التصنيف',
+    'thereAreNoRankingSystem' => 'لا يوجد أنظمة تصنيف',
+    'nameRankingSystem' => 'إسم نظام التصنيف',
+    'criteriaIndicator' =>'المعايير/المؤشرات',
+    'description' => 'الوصف',
+    'url' => 'الرابط',
+    'logoUpload' => 'رفع الشعار',
+];
+

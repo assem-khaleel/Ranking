@@ -1,0 +1,62 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: plus
+ * Date: 05/03/19
+ * Time: 01:48 م
+ */
+return [
+    'settings'=>'الإعدادات',
+    'home'=>'الرئيسية',
+    'create'=>'إنشاء',
+    'nameEn'=>'الاسم ( الإنجليزية )',
+    'nameAr'=>'الاسم ( العربية )',
+    'actions'=>'الإجراءات',
+    'edit'=>'تعديل',
+    'delete'=>'حذف',
+    'save'=>'حفظ',
+    'cancel'=>'إلغاء',
+    'sucessMsg'=>'تم الحفظ بنجاح !',
+    'nameArLabel'=>'قم بوضع الاسم هنا',
+    'nameEnLabel'=>'قم بوضع الاسم هنا',
+    'removeMsg'=>'هل أنت متأكد؟',
+    'sucessMsgRemove'=>'تم الحذف بنجاح',
+    'errorMsgRemove'=>'لا يمكن اتمام العملية',
+    'descEn'=>'الوصف ( الإنجليزية )',
+    'descAr'=>'الوصف ( العربية )',
+    'descArLabel'=>'قم بوضع الوصف هنا',
+    'descEnLabel'=>'قم بوضع الوصف هنا',
+    'selectOption'=>'اختر واحد',
+    'update' => 'تحديث',
+    'dashboard' => 'الرئيسية',
+    'ranking' => 'التصنيف',
+    'users' => 'المستخدمين',
+    'updateSuccessfully' => 'تم التحديث بنجاح !',
+    'notSuccessfullyRemoved' => 'لم يتم الحذف بنجاح !',
+    'success' => 'بنجاح',
+    'error' => 'خطأ',
+    'yesDeleteIt' => 'نعم , إحذفها !',
+    'close' => 'إغلاق',
+    'search' => 'بحث',
+    'notAccessAllowed' => 'لا يسمح بالوصول',
+    'reportInstitution' => 'تقرير الجامعة',
+    'reportProgram' => 'تقرير البرنامج',
+    'reports' => 'التقارير',
+    'institReports' => 'تقارير المؤسسة',
+    'programReports' => 'تقارير البرامج',
+    'TheInstitutionDoesNotExist' => 'الجامعة غير موجودة',
+    'permission' => 'لا يوجد صلاحية',
+    'collegeDoesNotExist' => 'الكلية غير موجودة',
+    'departmentDoesNotExist' => 'القسم غير موجود',
+    'programDoesNotExist' => 'البرنامج غير موجود',
+    'theYearIsIncorrect' => 'السنة غير صحيحة',
+    'theMonthIsIncorrect' => 'الشهر غير صحيح',
+    'theRankingSystemIsIncorrect' => 'نظام التصنيف غير صحيح',
+    'theCriteriaIsIncorrect' => 'المعيار غير صحيح',
+    'rankingSystemDoesNotExist' => 'نظام التصنيف غير موجود',
+    'subjectDoesNotExist' => 'الموضوع غير موجود',
+    'orgChart' => 'المخطط التنظيمي',
+    'TheSelectedEmailIsInvalidOrTheAccountHasBeenDisabled' => 'البريد الإلكتروني المدخل غير صالج أو تم تعطيل الحساب .',
+
+
+];
