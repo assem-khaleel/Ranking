@@ -11,7 +11,7 @@
                 <!-- Logo icon --><b>
                     <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                     <!-- Light Logo icon -->
-                    <img src="/images/logo-light-icon.png" alt="homepage" class="light-logo"/>
+                    <img src="/images/" alt="homepage" class="light-logo"/>
                 </b>
                 <!--End Logo icon -->
                 <!-- Logo text -->

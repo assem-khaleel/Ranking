@@ -36,7 +36,6 @@ Route::group(['prefix' => UriLocalizer::localeFromRequest()], function () {
         Route::get('program-report-show', 'ReportController@programShow')->name('report.programShow');
 
         Route::group(['prefix' => 'profiles', 'namespace' => 'Profiles'], function () {
-
             Route::get('my-profile', 'ProfileController@myProfile')->name('profiles.myProfile');
             Route::put('change-password', 'ProfileController@changePassword')->name('profiles.changePassword');
             Route::put('{id}', 'ProfileController@update')->name('profiles.update');

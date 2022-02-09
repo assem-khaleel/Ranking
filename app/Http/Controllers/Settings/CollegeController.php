@@ -173,6 +173,24 @@ class CollegeController extends Controller
                 }
 
                 return $redirect->with('message', ['type' => 'success', 'text' => 'common.updateSuccessfully']);
+            } $college = $this->college->find($id);
+
+            if (!empty($college)) {
+
+                $request->validate([
+                    'name_en' => "required|unique:colleges,name_en,$id,id,institution_id," . $college->institution_id,
+                    'name_ar' => "required|unique:colleges,name_ar,$id,id,institution_id," . $college->institution_id,
+                ]);
+
+                $college->update($request->all());
+
+                $redirect = Redirect()->route('college.index');
+
+                if ($request->get('is_orgchart', 0)) {
+                    $redirect = Redirect()->route('org-chart');
+                }
+
+                return $redirect->with('message', ['type' => 'success', 'text' => 'common.updateSuccessfully']);
             }
 
             return redirect()->route('home')->with('message', ['type' => 'error', 'text' => 'common.collegeDoesNotExist']);
